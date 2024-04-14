@@ -1,0 +1,110 @@
+body {
+    background-color: #464646;
+    font-family: Tahoma;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+#container {
+    width: 200px;
+    padding: 8px 8px 20px 8px;
+    margin: 20px auto;
+    background-color:rgb(43, 61, 76);
+    border-radius: 10px;
+    border-top: 2px solid #FFF;
+    border-right: 2px solid #FFF;
+    border-bottom: 2px solid #C1C1C1;
+    border-left: 2px solid #C1C1C1;
+    box-shadow: 5px 8px 8px 5px; 
+}
+
+#display {
+    display: block;
+    margin: 15px auto;
+    height: 42px;
+    width: 174px;
+    padding: 0 10px;
+    border-radius: 10px;
+    border-top: 2px solid #C1C1C1;
+    border-right: 2px solid #C1C1C1;
+    border-bottom: 2px solid #FFF;
+    border-left: 2px solid #FFF;
+    background-color: #a5acad;
+    box-shadow: inset 0px 0px 10px #030303, inset 0px -20px 1px rgba(150, 150, 150, .2);
+    font-size: 28px;
+    color: #0c0c0c;
+    text-align: right;
+    font-weight: 400;
+}
+
+.button {
+    display: inline-block;
+    margin: 2px;
+    width: 42px;
+    height: 42px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.mathButtons {
+    margin: 2px 2px 6px 2px;
+    color: white;	
+    background-color: rgb(253, 174, 29);
+    border-top: 2px solid #f1cd8f;
+    border-right: 2px solid #e1bf76;
+    border-bottom: 2px solid #c79a62;
+    border-left: 2px solid #e9bc41;
+    border-radius: 20px;
+}
+
+.digits {
+    color: white;
+    background-color: rgb(83, 81, 81);
+    border-top: 2px solid rgb(137, 133, 133);
+    border-right: 2px solid rgb(101, 94, 94);
+    border-bottom: 2px solid #575454;
+    border-left: 2px solid #565252; 
+    border-radius: 20px;
+
+}
+
+#clearButton:hover {
+    background-color: #FFBA75;
+    box-shadow: 0px 0px 2px #FFBA75, inset 0px -20px 1px #FF8000;
+    border-top: 2px solid #FFF;
+    border-right: 2px solid #FFF;
+    border-bottom: 2px solid #AE5700;
+    border-left: 2px solid #AE5700;
+}
+.mathButtons:hover{
+    background-color: #af5f0e;
+    box-shadow: 0px 0px 2px #613306, inset 0px -20px 1px #6c3804;
+    border-top: 2px solid #814204;
+    border-right: 2px solid #643802;
+    border-bottom: 2px solid #4c2905;
+    border-left: 2px solid #623303;
+}
+.digits:hover{
+    background-color: #898f9f;
+    box-shadow: 0px 0px 2px #898f9f, inset 0px -20px 1px #898f9f;
+    border-top: 2px solid #a5acad;
+    border-right: 2px solid #a5acad;
+    border-bottom: 2px solid #aebac0;
+    border-left: 2px solid #a3a09c;
+}
+#clearButton {
+    color: #FFF;
+    background-color: #D20000;
+    border-top: 2px solid #FF8484;
+    border-right: 2px solid #FF8484;
+    border-bottom: 2px solid #800000;
+    border-left: 2px solid #800000;
+    box-shadow: 0px 0px 2px #030303, inset 0px -20px 1px #B00000;
+}
